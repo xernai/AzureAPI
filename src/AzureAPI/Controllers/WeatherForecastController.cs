@@ -40,7 +40,7 @@ namespace AzureAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Freezing";
+            return "Cool";
         }
     }
 }
